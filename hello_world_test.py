@@ -1,2 +1,3 @@
 print("Hello World")
-print("gitgitgit")
+var = "gitgitgit"
+print(var)
