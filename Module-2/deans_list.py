@@ -3,11 +3,9 @@ Aung Aung
 Dean's List/Honor Roll Tracker
 This app will check if you made Dean's List or Honor Roll, it will constantly ask for inputs until you quit
 """
-import sys
-
 last_name = "Joe"
 if last_name.upper() == "XXX":
-    sys.exit()
+    quit()
 
 first_name = "Joe"
 gpa = 3.3
