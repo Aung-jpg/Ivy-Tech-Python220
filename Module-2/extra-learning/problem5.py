@@ -3,7 +3,7 @@ Aung Aung
 program that simulates an ATM (check bal, deposit, withdraw)
 """
 
-balance = 100.0
+balance = 1000.0
 
 while True:
     print("type the following letter to do the action:")
