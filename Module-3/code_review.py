@@ -8,6 +8,9 @@ class User:
     def describe_user(self):
         return f"{self.first_name} {self.last_name} is {self.gender} and likes the color {self.favorite_color}"
 
+    def greet_user(self):
+        return f"Hi {self.first_name}!"
+
 people = []
 aung = User("aung", "aung", "male", "red")
 people.append(aung)
@@ -22,4 +25,5 @@ people.append(logan)
 
 for i in people:
     print(i.describe_user())
+    print(i.greet_user())
 
