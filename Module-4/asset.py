@@ -51,4 +51,3 @@ building = Building("Earl Apartments", "4321 Earl St", 200, 850, 250)
 assets = [villa, building]
 for asset in assets:
     asset.display()
-    
