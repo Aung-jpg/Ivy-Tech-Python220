@@ -1,3 +1,3 @@
-from 'Module-4\notebook\zoo.py' import hours
+from zoo import hours
 
 hours()
